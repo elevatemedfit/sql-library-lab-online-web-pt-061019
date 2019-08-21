@@ -17,7 +17,7 @@ def select_value_and_count_of_most_prolific_species
   "SELECT characters.species
   FROM characters
   ORDER BY
-  SUM(species)
+  species
   DESC LIMIT 1;
 
   "
